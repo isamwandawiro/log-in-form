@@ -3,5 +3,16 @@ body{
   url( "pexels.jpg");
   
   background-size: cover;
-
+  width: 75%;
+  height: 75vh;
+}
+.container{
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  left: 30%;
+  background: rgb(232, 229, 229);
+  background-position: center;
+  text-align: center;
+  margin-top: 100px;
 }
