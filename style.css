@@ -11,7 +11,7 @@ body{
   height: 450px;
   position: absolute;
   left: 30%;
-  background: rgb(232, 229, 229);
+  background:rgba(8, 8, 8, 0.171);
   background-position: center;
   text-align: center;
   margin-top: 100px;
