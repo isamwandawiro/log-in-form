@@ -10,12 +10,12 @@
 </head>
 <body>
   <div class="container">
-      <h1>
+      <h1 id="title">
        Sign Up
       </h1>
       <form >
         <div class="input-group">
-          <div class="input-field">
+          <div class="input-field" id="nameField">
             <i class="bi bi-person-circle"></i>
             <input type="text" placeholder="Name">
           </div>
@@ -30,11 +30,15 @@
       <p>Lost Password 
         <a href="#">Click Here</a>
       </p>
-          
-
-        </div>
+    </div>
+      <div class="btn-field">
+        <button type="button"id="signupBtn">Sign Up
+        </button>
+        <button type="button" class="disable" id="signinBtn">Sign In</button>
+      </div>
       </form>
     </div>
   </div>
+  <script src="/index.js"></script>
 </body>
 </html>
