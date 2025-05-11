@@ -7,7 +7,6 @@ body{
   height: 75vh;
 }
 .container{
-  
   width: 450px;
   height: 450px;
   position: absolute;
@@ -20,11 +19,7 @@ body{
   border-radius: 30px;
   padding: 20px 10px 20px 10px;
 }
-.material-symbols-outlined{
-  font-size: 100px;
-  color: rgba(11, 245, 112, 0.1);
 
-}
 h1{
     
     margin-left: 20px;
