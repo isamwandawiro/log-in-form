@@ -1,29 +1,57 @@
 body{
   background-image:
-  url( "pexels.jpg");
+  url( "kenya-2.jpg");
   
   background-size: cover;
   width: 75%;
   height: 75vh;
 }
 .container{
+  
   width: 450px;
   height: 450px;
   position: absolute;
-  left: 30%;
+  left: 50%;
+  top :5%;
   background:rgba(8, 8, 8, 0.171);
-  background-position: center;
+  background-position: left;
   text-align: center;
   margin-top: 100px;
+  border-radius: 30px;
+  padding: 20px 10px 20px 10px;
+}
+.material-symbols-outlined{
+  font-size: 100px;
+  color: rgba(11, 245, 112, 0.1);
+
 }
 h1{
+    
+    margin-left: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    font-family: "Playfair Display", serif;
+    transform: translate(-50%, -50%);
+    
+    font-size: 10vw; 
+    color: rgba(245, 200, 132, 0.299); 
+    font-weight: 900; 
+    text-align: center; 
+    z-index: 90; 
+    white-space: nowrap;
+}
+
+
+h2{
   font-size: 30px;
   margin-top: 60px;
-  color: rgba(255, 68, 0, 0.838);
+  color: rgba(246, 242, 1, 0.913);
 }
 .input-field{
   margin: 15px 0;
   border-radius: 3px;
+  color: green;
   display: flex;
   align-items: center;
   max-height: 65px;
@@ -38,6 +66,10 @@ input{
   padding: 18px 15px;
 
 }
+input::placeholder {
+  color: white;
+}
+
 i{
   margin-left: 10px;
   
@@ -45,9 +77,10 @@ i{
 form p{
   text-align: center;
   font-size: 18px;
+  color: sandybrown;
 }
 form p a{
-  color: orangered;
+  color: rgba(235, 235, 23, 0.897);
 }
 .btn-field{
   width: 100%;
@@ -55,7 +88,7 @@ form p a{
   justify-content: space-between;
 }
 .btn-field button{
-   background:rgba(255, 68, 0, 0.509);
+   background:rgba(241, 91, 5, 0.509);
    color: whitesmoke;
    height: 50px;
    border-radius: 20px;
@@ -68,5 +101,5 @@ form p a{
 }
 .btn-field button.disable{
   background-color: whitesmoke;
-  color: rgba(255, 68, 0, 0.769);
+  color:rgba(241, 91, 5, 0.509);
 }
